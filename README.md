@@ -46,8 +46,9 @@
 
 Копии постов с реддита на всякий случай
 
+[https://www.reddit.com/r/obs/comments/12qotws/a_few_points_to_set_up_replay_buffer_to_function/]
  A few points to set up replay buffer to function like Shadowplay
-Guide [https://www.reddit.com/r/obs/comments/12qotws/a_few_points_to_set_up_replay_buffer_to_function/]
+Guide 
 
 There are guides for how to set up OBS Replay Buffer, but I just want to compile what I did to have it in one place. It's also kind of a note for me if I had to set it up again. You might want things to work differently.
 
@@ -108,7 +109,7 @@ The reasons for switching to OBS from Shadowplay for me are:
 
 
 
-
+[https://www.reddit.com/r/obs/comments/12qotws/comment/lw4lprx/]
 I was able to get the macros working with Advanced Scene Switcher. I have 2 scenes, one called Desktop and one called Game. Desktop is just a Display Capture of my primary desktop, and Game is Game Capture set for any Fullscreen Application.
 
 Then, I created 2 macros, one called Desktop the other Game. For Game, I set it to:

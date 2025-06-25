@@ -6,7 +6,7 @@
 в тулбаре: сервис - скрипты - настройки python - указать путь установки, где лежит python.exe (%LocalAppData%/Programs/Python/Python312)
 пока просто закрываем это окно, скрипты закинем позже, т.к. после импорта профилей и сцен придется настраивать заново
 
-2. в папку C:\Program Files\obs-studio\obs-plugins\64bit кидаем obs-nopreventsleep.dll, чтобы реплей не блокировал сон
+2. качаем [https://github.com/Meachamp/OBS-NoPreventSleep] в папку C:\Program Files\obs-studio\obs-plugins\64bit кидаем obs-nopreventsleep.dll, чтобы реплей не блокировал сон
 
 3. устанавливаем advanced scene switcher в папку с обс [https://obsproject.com/forum/resources/advanced-scene-switcher.395/] [https://github.com/WarmUpTill/SceneSwitcher/releases/]
 
@@ -17,7 +17,7 @@
 
 5. меняем настройки на свой вкус, не забываем про бинды и путь сохранения видео ДЛЯ ВСЕХ ПРОФИЛЕЙ (Replay и Record). Не забываем выбрать свой монитор в источнике сцены "Screen"
 
-6. возвращаемся в сервис - скрипты, во вкладке скрипты добавляем smart_replays.py (удалить, если он уже есть), настроить, проверить, что путь к клипам совпадает с тем, что указан в настройках обс
+6. качаем smart replays [https://obsproject.com/forum/resources/smart-replays.2039/] [https://github.com/qvvonk/smart_replays], возвращаемся в сервис - скрипты, во вкладке скрипты добавляем smart_replays.py (удалить, если он уже есть), настроить, проверить, что путь к клипам совпадает с тем, что указан в настройках обс
 
 7. для автозапуска от админа [https://obsproject.com/forum/threads/start-obs-as-administrator-on-startup-in-windows-10-with-startreplaybuffer.116313/]:
    1) пишем в поиск в винде "Планировщик задач", открываем

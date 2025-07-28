@@ -1,0 +1,1189 @@
+{
+    "current_scene": "Replay (Desktop)",
+    "current_program_scene": "Replay (Desktop)",
+    "scene_order": [
+        {
+            "name": "Replay (Desktop)"
+        }
+    ],
+    "name": "Replay",
+    "groups": [],
+    "quick_transitions": [],
+    "transitions": [],
+    "saved_projectors": [],
+    "canvases": [],
+    "current_transition": "Cut",
+    "transition_duration": 300,
+    "preview_locked": false,
+    "scaling_enabled": false,
+    "scaling_level": -21,
+    "scaling_off_x": 0.0,
+    "scaling_off_y": 0.0,
+    "virtual-camera": {
+        "type2": 3
+    },
+    "modules": {
+        "advanced-scene-switcher": {
+            "actionQueues": [],
+            "active": false,
+            "adjustActiveTransitionType": true,
+            "audioFallbackDuration": {
+                "unit": 0,
+                "value": {
+                    "type": 0,
+                    "value": 0
+                },
+                "version": 1
+            },
+            "audioFallbackEnable": false,
+            "audioFallbackScene": "",
+            "audioFallbackTargetType": 0,
+            "audioFallbackTransition": "",
+            "audioSwitches": [],
+            "autoStartEvent": 0,
+            "cooldown": {
+                "unit": 0,
+                "value": {
+                    "type": 0,
+                    "value": 0
+                },
+                "version": 1
+            },
+            "defTransitionDelay": 0,
+            "defaultTransitions": [],
+            "disableFilterComboboxFilter": false,
+            "disableHints": false,
+            "disableMacroWidgetCache": false,
+            "downMacroSegmentHotkey": [],
+            "enableCooldown": false,
+            "executableSwitches": [],
+            "fileSwitches": [],
+            "hideLegacyTabs": true,
+            "idleEnable": false,
+            "idleSceneName": "",
+            "idleTargetType": 0,
+            "idleTime": 60,
+            "idleTransitionName": "",
+            "ignoreIdleWindows": [],
+            "ignoreWindows": [],
+            "interval": 300,
+            "lastImportPath": "C:/Users/70/Desktop/adv-ss-Сцены1-2025.07.06.03.41.55.txt",
+            "logLevel": -1,
+            "logLevelVersion": 1,
+            "macroListMacroEditSplitterPosition": [
+                {
+                    "pos": 147
+                },
+                {
+                    "pos": 826
+                }
+            ],
+            "macroSettings": {
+                "highlightActions": false,
+                "highlightConditions": false,
+                "highlightExecuted": false,
+                "newMacroCheckInParallel": false,
+                "newMacroRegisterHotkey": false,
+                "newMacroUseShortCircuitEvaluation": false,
+                "saveSettingsOnMacroChange": true
+            },
+            "macros": [
+                {
+                    "actions": [
+                        {
+                            "blockUntilTransitionDone": true,
+                            "duration": {
+                                "unit": 0,
+                                "value": {
+                                    "type": 0,
+                                    "value": 0
+                                },
+                                "version": 1
+                            },
+                            "id": "scene_switch",
+                            "sceneSelection": {
+                                "name": "Replay (Game) (Old)",
+                                "type": 0
+                            },
+                            "sceneType": 0,
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "customLabel": "My label",
+                                "enabled": true,
+                                "useCustomLabel": false,
+                                "version": 1
+                            },
+                            "transitionType": 1
+                        }
+                    ],
+                    "checkConditionsInParallel": false,
+                    "conditions": [
+                        {
+                            "durationModifier": {
+                                "seconds": {
+                                    "unit": 0,
+                                    "value": {
+                                        "type": 0,
+                                        "value": 0
+                                    },
+                                    "version": 1
+                                },
+                                "time_constraint": 0
+                            },
+                            "id": "profile",
+                            "logic": 0,
+                            "profile": "Replay",
+                            "segmentSettings": {
+                                "collapsed": true,
+                                "customLabel": "My label",
+                                "enabled": true,
+                                "useCustomLabel": false,
+                                "version": 1
+                            }
+                        },
+                        {
+                            "checkTitle": false,
+                            "checkWindowText": false,
+                            "durationModifier": {
+                                "seconds": {
+                                    "unit": 0,
+                                    "value": {
+                                        "type": 0,
+                                        "value": 0
+                                    },
+                                    "version": 1
+                                },
+                                "time_constraint": 0
+                            },
+                            "focus": true,
+                            "fullscreen": true,
+                            "id": "window",
+                            "logic": 101,
+                            "maximized": false,
+                            "segmentSettings": {
+                                "collapsed": true,
+                                "customLabel": "My label",
+                                "enabled": true,
+                                "useCustomLabel": false,
+                                "version": 1
+                            },
+                            "text": "",
+                            "textRegexConfig": {
+                                "enable": false,
+                                "options": 0,
+                                "partial": true
+                            },
+                            "version": 1,
+                            "window": ".*",
+                            "windowFocusChanged": false,
+                            "windowRegexConfig": {
+                                "enable": true,
+                                "options": 0,
+                                "partial": false
+                            }
+                        },
+                        {
+                            "checkTitle": true,
+                            "checkWindowText": false,
+                            "durationModifier": {
+                                "seconds": {
+                                    "unit": 0,
+                                    "value": {
+                                        "type": 0,
+                                        "value": 0
+                                    },
+                                    "version": 1
+                                },
+                                "time_constraint": 0
+                            },
+                            "focus": true,
+                            "fullscreen": false,
+                            "id": "window",
+                            "logic": 100,
+                            "maximized": false,
+                            "segmentSettings": {
+                                "collapsed": true,
+                                "customLabel": "My label",
+                                "enabled": true,
+                                "useCustomLabel": false,
+                                "version": 1
+                            },
+                            "text": "",
+                            "textRegexConfig": {
+                                "enable": false,
+                                "options": 0,
+                                "partial": true
+                            },
+                            "version": 1,
+                            "window": "﻿﻿​​​﻿﻿THE﻿ ﻿F﻿​IN​​​​A​​​​LS",
+                            "windowFocusChanged": false,
+                            "windowRegexConfig": {
+                                "enable": true,
+                                "options": 0,
+                                "partial": true
+                            }
+                        },
+                        {
+                            "durationModifier": {
+                                "seconds": {
+                                    "unit": 0,
+                                    "value": {
+                                        "type": 0,
+                                        "value": 0
+                                    },
+                                    "version": 1
+                                },
+                                "time_constraint": 0
+                            },
+                            "focus": true,
+                            "id": "process",
+                            "logic": 102,
+                            "process": "Discovery.exe",
+                            "regexConfig": {
+                                "enable": false,
+                                "options": 0,
+                                "partial": true
+                            },
+                            "segmentSettings": {
+                                "collapsed": true,
+                                "customLabel": "My label",
+                                "enabled": true,
+                                "useCustomLabel": false,
+                                "version": 1
+                            },
+                            "version": 1
+                        }
+                    ],
+                    "customConditionCheckInterval": {
+                        "unit": 0,
+                        "value": {
+                            "type": 0,
+                            "value": 0.3
+                        },
+                        "version": 1
+                    },
+                    "dockSettings": {
+                        "conditionsFalseStatusText": "Conditions are false.",
+                        "conditionsTrueStatusText": "Conditions are true.",
+                        "dockId": "advss-macro-dock-fe736219-6b5d-4eab-b113-bff79736f473",
+                        "hasPauseButton": true,
+                        "hasRunButton": true,
+                        "hasStatusLabel": false,
+                        "highlightIfConditionsTrue": false,
+                        "pauseButtonText": "Pause",
+                        "register": false,
+                        "runButtonText": "Run",
+                        "unpauseButtonText": "Unpause",
+                        "version": 1
+                    },
+                    "elseActions": [],
+                    "group": false,
+                    "inputVariables": [],
+                    "macroActionConditionSplitterPosition": [
+                        {
+                            "pos": 214
+                        },
+                        {
+                            "pos": 214
+                        }
+                    ],
+                    "macroElseActionSplitterPosition": [
+                        {
+                            "pos": 182
+                        },
+                        {
+                            "pos": 0
+                        }
+                    ],
+                    "name": "Games",
+                    "onChange": true,
+                    "parallel": true,
+                    "pause": true,
+                    "pauseHotkey": [],
+                    "pauseSaveBehavior": 0,
+                    "registerHotkeys": false,
+                    "skipExecOnStart": false,
+                    "stopActionsIfNotDone": false,
+                    "togglePauseHotkey": [],
+                    "unpauseHotkey": [],
+                    "useCustomConditionCheckInterval": false,
+                    "useShortCircuitEvaluation": false
+                },
+                {
+                    "actions": [],
+                    "checkConditionsInParallel": false,
+                    "conditions": [
+                        {
+                            "durationModifier": {
+                                "seconds": {
+                                    "unit": 0,
+                                    "value": {
+                                        "type": 0,
+                                        "value": 0
+                                    },
+                                    "version": 1
+                                },
+                                "time_constraint": 0
+                            },
+                            "id": "game_capture",
+                            "logic": 0,
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "customLabel": "My label",
+                                "enabled": true,
+                                "useCustomLabel": false,
+                                "version": 1
+                            },
+                            "source": {
+                                "name": "",
+                                "type": 0
+                            }
+                        }
+                    ],
+                    "customConditionCheckInterval": {
+                        "unit": 0,
+                        "value": {
+                            "type": 0,
+                            "value": 0.3
+                        },
+                        "version": 1
+                    },
+                    "dockSettings": {
+                        "conditionsFalseStatusText": "Conditions are false.",
+                        "conditionsTrueStatusText": "Conditions are true.",
+                        "dockId": "advss-macro-dock-6cf85979-717d-4584-8cc4-eb4939d2fa57",
+                        "hasPauseButton": true,
+                        "hasRunButton": true,
+                        "hasStatusLabel": false,
+                        "highlightIfConditionsTrue": false,
+                        "pauseButtonText": "Pause",
+                        "register": false,
+                        "runButtonText": "Run",
+                        "unpauseButtonText": "Unpause",
+                        "version": 1
+                    },
+                    "elseActions": [],
+                    "group": false,
+                    "inputVariables": [],
+                    "macroActionConditionSplitterPosition": [
+                        {
+                            "pos": 214
+                        },
+                        {
+                            "pos": 214
+                        }
+                    ],
+                    "macroElseActionSplitterPosition": [
+                        {
+                            "pos": 182
+                        },
+                        {
+                            "pos": 0
+                        }
+                    ],
+                    "name": "Макрос 1",
+                    "onChange": true,
+                    "parallel": false,
+                    "pause": true,
+                    "pauseHotkey": [],
+                    "pauseSaveBehavior": 0,
+                    "registerHotkeys": false,
+                    "skipExecOnStart": false,
+                    "stopActionsIfNotDone": false,
+                    "togglePauseHotkey": [],
+                    "unpauseHotkey": [],
+                    "useCustomConditionCheckInterval": false,
+                    "useShortCircuitEvaluation": false
+                },
+                {
+                    "actions": [
+                        {
+                            "blockUntilTransitionDone": true,
+                            "duration": {
+                                "unit": 0,
+                                "value": {
+                                    "type": 0,
+                                    "value": 0
+                                },
+                                "version": 1
+                            },
+                            "id": "scene_switch",
+                            "sceneSelection": {
+                                "name": "Replay (Desktop)",
+                                "type": 0
+                            },
+                            "sceneType": 0,
+                            "segmentSettings": {
+                                "collapsed": false,
+                                "customLabel": "My label",
+                                "enabled": true,
+                                "useCustomLabel": false,
+                                "version": 1
+                            },
+                            "transitionType": 1
+                        }
+                    ],
+                    "checkConditionsInParallel": false,
+                    "conditions": [
+                        {
+                            "durationModifier": {
+                                "seconds": {
+                                    "unit": 0,
+                                    "value": {
+                                        "type": 0,
+                                        "value": 0
+                                    },
+                                    "version": 1
+                                },
+                                "time_constraint": 0
+                            },
+                            "id": "profile",
+                            "logic": 0,
+                            "profile": "Replay",
+                            "segmentSettings": {
+                                "collapsed": true,
+                                "customLabel": "My label",
+                                "enabled": true,
+                                "useCustomLabel": false,
+                                "version": 1
+                            }
+                        },
+                        {
+                            "actionIndex": {
+                                "type": 0,
+                                "value": 1
+                            },
+                            "condition": 0,
+                            "count": {
+                                "type": 0,
+                                "value": 0
+                            },
+                            "durationModifier": {
+                                "seconds": {
+                                    "unit": 0,
+                                    "value": {
+                                        "type": 0,
+                                        "value": 0
+                                    },
+                                    "version": 1
+                                },
+                                "time_constraint": 0
+                            },
+                            "id": "macro",
+                            "logic": 103,
+                            "macro": "Games",
+                            "macros": [],
+                            "multiStateCondition": 2,
+                            "multiStateCount": {
+                                "type": 0,
+                                "value": 0
+                            },
+                            "segmentSettings": {
+                                "collapsed": true,
+                                "customLabel": "My label",
+                                "enabled": true,
+                                "useCustomLabel": false,
+                                "version": 1
+                            },
+                            "type": 1,
+                            "version": 1
+                        }
+                    ],
+                    "customConditionCheckInterval": {
+                        "unit": 0,
+                        "value": {
+                            "type": 0,
+                            "value": 0.3
+                        },
+                        "version": 1
+                    },
+                    "dockSettings": {
+                        "conditionsFalseStatusText": "Conditions are false.",
+                        "conditionsTrueStatusText": "Conditions are true.",
+                        "dockId": "advss-macro-dock-eb1ad1cd-7524-4506-9c3b-adfdf3139d9d",
+                        "hasPauseButton": true,
+                        "hasRunButton": true,
+                        "hasStatusLabel": false,
+                        "highlightIfConditionsTrue": false,
+                        "pauseButtonText": "Pause",
+                        "register": false,
+                        "runButtonText": "Run",
+                        "unpauseButtonText": "Unpause",
+                        "version": 1
+                    },
+                    "elseActions": [],
+                    "group": false,
+                    "inputVariables": [],
+                    "macroActionConditionSplitterPosition": [
+                        {
+                            "pos": 214
+                        },
+                        {
+                            "pos": 214
+                        }
+                    ],
+                    "macroElseActionSplitterPosition": [
+                        {
+                            "pos": 182
+                        },
+                        {
+                            "pos": 0
+                        }
+                    ],
+                    "name": "Desktop",
+                    "onChange": false,
+                    "parallel": true,
+                    "pause": true,
+                    "pauseHotkey": [],
+                    "pauseSaveBehavior": 0,
+                    "registerHotkeys": false,
+                    "skipExecOnStart": false,
+                    "stopActionsIfNotDone": false,
+                    "togglePauseHotkey": [],
+                    "unpauseHotkey": [],
+                    "useCustomConditionCheckInterval": false,
+                    "useShortCircuitEvaluation": false
+                }
+            ],
+            "mediaSwitches": [],
+            "mqttConnections": [],
+            "newMacroHotkey": [],
+            "noMatchDelay": {
+                "unit": 0,
+                "value": {
+                    "type": 0,
+                    "value": 0
+                },
+                "version": 1
+            },
+            "non_matching_scene": "Replay (Desktop)",
+            "pauseEntries": [],
+            "priority0": 10,
+            "priority1": 0,
+            "priority10": 3,
+            "priority2": 2,
+            "priority3": 8,
+            "priority4": 6,
+            "priority5": 9,
+            "priority6": 7,
+            "priority7": 4,
+            "priority8": 1,
+            "priority9": 5,
+            "randomSwitches": [],
+            "readEnabled": false,
+            "readPath": "",
+            "removeMacroSegmentHotkey": [],
+            "saveWindowGeo": false,
+            "sceneGroups": [],
+            "sceneRoundTrip": [],
+            "sceneTransitions": [],
+            "screenRegion": [],
+            "showSystemTrayNotifications": false,
+            "startHotkey": [],
+            "startup_behavior": 2,
+            "stopHotkey": [],
+            "switch_if_not_matching": 0,
+            "switches": [],
+            "tabWidgetOrder": [
+                {
+                    "generalTab": 0
+                },
+                {
+                    "macroTab": 1
+                },
+                {
+                    "windowTitleTab": 2
+                },
+                {
+                    "executableTab": 3
+                },
+                {
+                    "screenRegionTab": 4
+                },
+                {
+                    "mediaTab": 5
+                },
+                {
+                    "fileTab": 6
+                },
+                {
+                    "randomTab": 7
+                },
+                {
+                    "timeTab": 8
+                },
+                {
+                    "idleTab": 9
+                },
+                {
+                    "sceneSequenceTab": 10
+                },
+                {
+                    "audioTab": 11
+                },
+                {
+                    "videoTab": 12
+                },
+                {
+                    "sceneGroupTab": 13
+                },
+                {
+                    "transitionsTab": 14
+                },
+                {
+                    "pauseTab": 15
+                },
+                {
+                    "websocketConnectionTab": 16
+                },
+                {
+                    "mqttConnectionTab": 17
+                },
+                {
+                    "twitchConnectionTab": 18
+                },
+                {
+                    "variableTab": 19
+                },
+                {
+                    "actionQueueTab": 20
+                }
+            ],
+            "threadPriority": 3,
+            "timeSwitches": [],
+            "toggleHotkey": [],
+            "transitionOverrideOverride": false,
+            "twitchConnections": [],
+            "upMacroSegmentHotkey": [],
+            "variables": [],
+            "version": "20488afdd164c29a83b1a76788cde209494be1ae",
+            "videoSwitches": [],
+            "warnPluginLoadFailure": true,
+            "websocketConnections": [],
+            "windowHeight": 600,
+            "windowPosX": -2329,
+            "windowPosY": 379,
+            "windowWidth": 1000,
+            "writeEnabled": false,
+            "writePath": ""
+        },
+        "auto-scene-switcher": {
+            "interval": 300,
+            "non_matching_scene": "Replay (Desktop)",
+            "switch_if_not_matching": true,
+            "active": false,
+            "switches": []
+        },
+        "captions": {
+            "source": "",
+            "enabled": false,
+            "lang_id": 1049,
+            "provider": "mssapi"
+        },
+        "output-timer": {
+            "streamTimerHours": 0,
+            "streamTimerMinutes": 0,
+            "streamTimerSeconds": 30,
+            "recordTimerHours": 0,
+            "recordTimerMinutes": 0,
+            "recordTimerSeconds": 30,
+            "autoStartStreamTimer": false,
+            "autoStartRecordTimer": false,
+            "pauseRecordTimer": true
+        },
+        "scripts-tool": [
+            {
+                "path": "X:/pl/Programs/OBS/smart_replays.py",
+                "settings": {
+                    "popup_notification_settings": true,
+                    "save_buffer_force_mode_1": [],
+                    "save_buffer_force_mode_2": [],
+                    "save_buffer_force_mode_3": [],
+                    "clips_naming_mode": 1,
+                    "clips_filename_template": "%NAME_%Y.%m.%d_%H-%M-%S",
+                    "popup_clips_on_success": true,
+                    "popup_clips_on_failure": true,
+                    "prop_popup_path_display_mode": 2
+                }
+            }
+        ]
+    },
+    "resolution": {
+        "x": 2560,
+        "y": 1440
+    },
+    "version": 2,
+    "sources": [
+        {
+            "prev_ver": 520159233,
+            "name": "Microphone",
+            "uuid": "b272a257-bd5c-4959-ab24-374e4cbac99d",
+            "id": "wasapi_input_capture",
+            "versioned_id": "wasapi_input_capture",
+            "settings": {
+                "device_id": "default"
+            },
+            "mixers": 195,
+            "sync": 0,
+            "flags": 0,
+            "volume": 0.7085466384887695,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159233,
+            "name": "Replay (Desktop)",
+            "uuid": "c6bdfc9e-21dc-42d3-a604-a9a3febe63ff",
+            "id": "scene",
+            "versioned_id": "scene",
+            "settings": {
+                "custom_size": false,
+                "id_counter": 6,
+                "items": [
+                    {
+                        "name": "[Audio] The Finals",
+                        "source_uuid": "b51dbff1-94fa-4b77-badb-517804182d8a",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2560.0,
+                            "y": 1440.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 6,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "[Audio] Discord",
+                        "source_uuid": "772220bc-79b6-42aa-805a-7a02e55734dc",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2560.0,
+                            "y": 1440.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 3,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Microphone",
+                        "source_uuid": "b272a257-bd5c-4959-ab24-374e4cbac99d",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2560.0,
+                            "y": 1440.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 2,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Speakers",
+                        "source_uuid": "369ec52b-ef6c-49d4-aed9-a4b04cb390ff",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2560.0,
+                            "y": 1440.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 1,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    },
+                    {
+                        "name": "Screen",
+                        "source_uuid": "f8607406-85b9-41cd-a25c-871c53ec46de",
+                        "visible": true,
+                        "locked": true,
+                        "rot": 0.0,
+                        "scale_ref": {
+                            "x": 2560.0,
+                            "y": 1440.0
+                        },
+                        "align": 5,
+                        "bounds_type": 0,
+                        "bounds_align": 0,
+                        "bounds_crop": false,
+                        "crop_left": 0,
+                        "crop_top": 0,
+                        "crop_right": 0,
+                        "crop_bottom": 0,
+                        "id": 4,
+                        "group_item_backup": false,
+                        "pos": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "pos_rel": {
+                            "x": -1.7777777910232544,
+                            "y": -1.0
+                        },
+                        "scale": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "scale_rel": {
+                            "x": 1.0,
+                            "y": 1.0
+                        },
+                        "bounds": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "bounds_rel": {
+                            "x": 0.0,
+                            "y": 0.0
+                        },
+                        "scale_filter": "disable",
+                        "blend_method": "default",
+                        "blend_type": "normal",
+                        "show_transition": {
+                            "duration": 0
+                        },
+                        "hide_transition": {
+                            "duration": 0
+                        },
+                        "private_settings": {}
+                    }
+                ]
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "OBSBasic.SelectScene": [],
+                "libobs.show_scene_item.6": [],
+                "libobs.hide_scene_item.6": [],
+                "libobs.show_scene_item.3": [],
+                "libobs.hide_scene_item.3": [],
+                "libobs.show_scene_item.2": [],
+                "libobs.hide_scene_item.2": [],
+                "libobs.show_scene_item.1": [],
+                "libobs.hide_scene_item.1": [],
+                "libobs.show_scene_item.4": [],
+                "libobs.hide_scene_item.4": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "canvas_uuid": "6c69626f-6273-4c00-9d88-c5136d61696e",
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159233,
+            "name": "Screen",
+            "uuid": "f8607406-85b9-41cd-a25c-871c53ec46de",
+            "id": "monitor_capture",
+            "versioned_id": "monitor_capture",
+            "settings": {
+                "method": 2,
+                "monitor_id": "\\\\?\\DISPLAY#AUS27EF#5&33f6cf1&0&UID4353#{e6f07b5f-ee97-4a90-b076-33f57bf4eaa7}"
+            },
+            "mixers": 0,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {},
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159233,
+            "name": "Speakers",
+            "uuid": "369ec52b-ef6c-49d4-aed9-a4b04cb390ff",
+            "id": "wasapi_output_capture",
+            "versioned_id": "wasapi_output_capture",
+            "settings": {
+                "device_id": "default",
+                "use_device_timing": false
+            },
+            "mixers": 193,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159233,
+            "name": "[Audio] Discord",
+            "uuid": "772220bc-79b6-42aa-805a-7a02e55734dc",
+            "id": "wasapi_process_output_capture",
+            "versioned_id": "wasapi_process_output_capture",
+            "settings": {
+                "priority": 2,
+                "window": "Friends - Discord:Chrome_WidgetWin_1:Discord.exe"
+            },
+            "mixers": 196,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        },
+        {
+            "prev_ver": 520159233,
+            "name": "[Audio] The Finals",
+            "uuid": "b51dbff1-94fa-4b77-badb-517804182d8a",
+            "id": "wasapi_process_output_capture",
+            "versioned_id": "wasapi_process_output_capture",
+            "settings": {
+                "priority": 2,
+                "window": "​​﻿﻿T﻿﻿﻿​﻿H​﻿E​ ​​​F﻿INA​​L​​S:MortifiedCat_15152351:Discovery.exe"
+            },
+            "mixers": 200,
+            "sync": 0,
+            "flags": 0,
+            "volume": 1.0,
+            "balance": 0.5,
+            "enabled": true,
+            "muted": false,
+            "push-to-mute": false,
+            "push-to-mute-delay": 0,
+            "push-to-talk": false,
+            "push-to-talk-delay": 0,
+            "hotkeys": {
+                "libobs.mute": [],
+                "libobs.unmute": [],
+                "libobs.push-to-mute": [],
+                "libobs.push-to-talk": []
+            },
+            "deinterlace_mode": 0,
+            "deinterlace_field_order": 0,
+            "monitoring_type": 0,
+            "private_settings": {}
+        }
+    ]
+}
